@@ -67,7 +67,7 @@ li {
 
 h2 {
     color: #7a5549;
-    font-size: 40px;
+    font-size: 30px;
     letter-spacing: 2px;
 }
 
@@ -79,6 +79,7 @@ h3 {
 p {
     color:rgb(255, 255, 255);
     font-family: Averia sans-serif ;
+    font-size: 14px;
 }
 
 .center  {
