@@ -1,2 +1,2 @@
-# portfolio-site
- https://mainal15.github.io/portfolio-site/
+# Mainal-Portfolio
+https://mainal15.github.io/Mainal-Portfolio/
