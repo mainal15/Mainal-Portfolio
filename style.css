@@ -161,3 +161,21 @@ a:hover {
 .kitten-gif {
     border-radius:20px;
 }
+
+.button {
+    border-radius:20px;
+    background-color: #d49f8f;
+    border: white 2px solid;
+    padding: 20px;
+    margin: 10px;
+    font-size:20px;
+    letter-spacing: 2px;
+    
+    
+}
+
+.button:hover {
+    background-color:rgb(167, 126, 114);
+    border-radius: 20px;
+ 
+    
