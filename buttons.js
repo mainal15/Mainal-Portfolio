@@ -6,7 +6,7 @@ function getName(){
 }
 
 //Prompts the user for two users and uses conditional statements to output the larger of the two numbers.
-function largerNumber () {
+function largerNumber(){
         let num1 = prompt("Enter the first number: ");
         let num1 = prompt("Enter the second number: ");
         let output = ""
@@ -20,7 +20,8 @@ function largerNumber () {
             output = "Invalid input"
         }
         document.getElementByID("largerNum").innerHTML = output;
-        }
+   }
+
 }
 
 function project2 () {
