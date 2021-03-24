@@ -26,10 +26,23 @@ function largerNumber(){
     document.getElementById("largerNumber").innerHTML = output;
    }
 
-
-function project2 () {
-    alert("Project 2 coming soon!");
-}
+//Prompts the user for 3 integers ans uses conditional staements to output the sign of product of three numbers
+function signOfProduct () {
+        let x = parseInt(prompt("Enter a number!"));
+        let y = parseInt(prompt("Enter a second number!"));
+        let z = parseInt(prompt("Enter a third number!"));
+        //multiply the three numbers entered
+        let totalProduct = x * y * z;
+        //if the product of the three numbers is negative
+        if (totalProduct < 0 ){
+          output = "The sign of the product is - , or negative."; 
+        }
+        //if the product of the three numbers is positive
+        if (totalProduct > 0 ){
+          output = "The sign of the product is + , or positive."; 
+        }
+        document.getElementById("signOfProduct").innerHTML = output;
+    }
 
 function project3 () {
     alert("Project 3 coming soon!");
