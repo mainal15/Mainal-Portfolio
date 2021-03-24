@@ -179,14 +179,14 @@ a:hover {
 .button:hover {
     background-color:rgb(167, 126, 114);
     border-radius: 20px;
-    
-    #largerNum{
-        font-size: 14px;
-        color: white;
-        letter-spacing: 2px;
-        margin: 2px;
-        padding: 2px;
-        font-family: Averia sans-serif;
     }
- 
+/*CSS styling for button outputs*/
+#getName , #largerNumber ,#signOfProduct,#threeNumberSort,#forSumThrees,#whileSumThrees,#tenFour,#centuryFromYear,#ThirdAnlge{
+    color:rgb(255, 255, 255);
+    font-family: Averia sans-serif ;
+    font-size: 20px;
+    background: none;
+    border-style: none;
+
+}
     
