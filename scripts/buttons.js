@@ -7,22 +7,25 @@ function getName(){
 
 //Prompts the user for two users and uses conditional statements to output the larger of the two numbers.
 function largerNumber(){
-        let num1 = prompt("Enter the first number: ");
-        let num1 = prompt("Enter the second number: ");
-        let output = ""
-        id (num1 > num2){
-            output = num1;
-        } else if (num1 == num2){
-            output = "The numbers entered are equal";
-        } else if (num2 > num 1){
-            output = num2;
-        } else {
-            output = "Invalid input"
-        }
-        document.getElementByID("largerNum").innerHTML = output;
+    let num1 = parseInt(prompt("Enter a number!: "));
+    let num2 = parseInt(prompt("Enter a second number!: "));
+    let output = ""
+    //If number one is larger than the second number entered,
+    if (num1 > num2){ 
+        output = "The larger number is " + num1 + "!"; 
+    //If the two numbers are equal
+    } else if (num1 == num2){
+        output = "The numbers are equal!";
+    //If number 2 is larger than number 1
+    } else if (num2 > num1){ 
+        output = "The larger number is " + num2 + "!";
+    //If incorrect variables are entered
+    } else {
+        output = "Uh-Oh! I'm a bit confused."; 
+    }
+    document.getElementById("largerNumber").innerHTML = output;
    }
 
-}
 
 function project2 () {
     alert("Project 2 coming soon!");
