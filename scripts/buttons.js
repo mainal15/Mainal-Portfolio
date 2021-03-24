@@ -1,8 +1,8 @@
 //Greeting
-
 function getName(){
     let name = prompt ("Hi there! What's your name?");
-    alert("Welcome to my website," + name);
+    let output = ("Welcome to my website," + name);
+    document.getElementById("getName").innerHTML = output;
 }
 
 //Prompts the user for two users and uses conditional statements to output the larger of the two numbers.
