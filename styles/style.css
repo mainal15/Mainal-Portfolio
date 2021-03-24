@@ -1,0 +1,192 @@
+.header {
+    background-image:url(https://64.media.tumblr.com/ff5a693e33fcf43fa324b67157db4439/d6bfd3d55abbf31b-93/s640x960/6a550085ecabffd71dfeb029cdecca3550cd30bc.png);
+    padding: 50px 10px;
+    text-align: center;
+    overflow: hidden;
+    color: white;
+    border-radius: 10px;
+    box-shadow: white;
+}
+
+body {
+   background-color:#ffd6e0;
+   background-image: url(https://i.pinimg.com/474x/52/5f/3e/525f3e236395429ca58059ee456e654f.jpg);
+   background-size: 100%;
+}
+
+.coffee-gif {
+    text-align: center;
+    padding: 10px;
+    overflow: hidden;
+}
+
+h1 {
+    color: #fff5f0;
+    text-shadow:black;
+    font-family: 'Averia Serif Libre', cursive;
+    text-align: center;
+    font-size: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+  
+   
+    
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration:white;
+    background-color: #d49f8f;
+    display: block;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+li a:hover {
+    background-color:rgb(167, 126, 114);
+}
+
+li {
+    display: inline;
+    float: left;
+    text-align: center;
+}
+
+h2 {
+    color: #7a5549;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+h3 {
+    color: #7a5549;
+    font-size: 20px;
+}
+
+p {
+    color:rgb(255, 255, 255);
+    font-family: Averia sans-serif ;
+    font-size: 14px;
+}
+
+.center  {
+    text-align: center;
+}
+
+div#nav ul {
+    display: inline-block;
+}
+
+div#nav {
+    text-align: center;
+}
+
+.introduction {
+    padding: 30px 50px;
+    background-color: rgb(212, 159, 143);
+    margin: 20px 200px;
+    border-radius: 20px;
+    display: inline-block;
+    text-align: center;
+    border: 2px solid white;
+    
+}
+
+p {
+    font-size: 20px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+#row {
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(212, 159, 143);
+    border: 2px solid white;
+    margin: 20px;
+    width: 80%;
+    box-shadow: white;
+    border-radius: 15px;
+}
+
+.column {
+    display: inline-block;
+    width: 23%;
+    height: auto;
+    text-align: center;
+    vertical-align: top;
+    padding: 4%;
+}
+
+.bottom-image {
+    margin:20px;
+    overflow: hidden;
+    padding:30px;
+}
+
+a {
+    color: white;
+    font-size: 25px;
+    font-style: normal;
+    padding: 20px;
+}
+
+a:hover {
+    background-color:rgb(167, 126, 114);
+    border-radius: 20px;
+
+}
+
+.school , .real-world {
+    background-color :rgb(212, 159, 143);
+    padding: 40px 20px;
+    margin: 40px;
+    border: solid white 2px;
+    border-radius: 15px;
+}
+
+.kitten-gif {
+    border-radius:20px;
+}
+
+.button {
+    border-radius:20px;
+    background-color: #d49f8f;
+    border: white 2px solid;
+    padding: 20px;
+    margin: 10px;
+    font-size:20px;
+    letter-spacing: 2px;
+    font-family: Averia sans-serif;
+    color: white;
+    
+    
+}
+
+.button:hover {
+    background-color:rgb(167, 126, 114);
+    border-radius: 20px;
+    
+    #largerNum{
+        font-size: 14px;
+        color: white;
+        letter-spacing: 2px;
+        margin: 2px;
+        padding: 2px;
+        font-family: Averia sans-serif;
+    }
+ 
+    
