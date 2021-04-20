@@ -141,7 +141,7 @@ function encryption(){
          //The rest of the text after the first letter
       cypherText = cypherText.split(" "); 
       //Creates spaces
-    for(let i = 0; i < ciphercypherTextext.length; i = i + 1){
+    for(let i = 0; i < cypherText.length; i = i + 1){
         cypherText[i] = cypherText[i].replace(/Ahf/, ""); 
         cypherText[i] = cypherText[i].replace(/ahFj/g, ""); 
         cypherText[i] = cypherText[i].replace(/5/g, ""); 
