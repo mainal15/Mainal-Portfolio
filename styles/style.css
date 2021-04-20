@@ -181,7 +181,7 @@ a:hover {
     border-radius: 20px;
     }
 /*CSS styling for button outputs*/
-#getName , #largerNumber ,#signOfProduct,#threeNumberSort,#sumOfThrees,#whileSumThrees,#tenFour,#centuryFromYear,#thirdAngle{
+#getName , #largerNumber ,#signOfProduct,#threeNumberSort,#sumOfThrees,#whileSumThrees,#tenFour,#centuryFromYear,#encryption, #decryption{
     color:rgb(255, 255, 255);
     font-family: Averia sans-serif ;
     font-size: 20px;
