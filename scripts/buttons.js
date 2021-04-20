@@ -107,21 +107,60 @@ function centuryFromYear () {
      document.getElementById("centuryFromYear").innerHTML = output;  
 }
 
-//finds the missing angle of two angles that make up a triangle.
-function thirdAngle () {
-    let num1 = parseInt (prompt("Enter a angle value!"));
-    let num2 = parseInt (prompt('Enter a second angle value!'));
-    let sumOfAngle = 0;
-        if ((num1 + num2) < 180){
-        missingAngle = 180 - (num1 + num2);
-        output="The missing angle is " + missingAngle + "!";
-    }
-    else if (num1 + num2 > 180){
-        output="Uh-Oh! Seems like those angles dont make up a triangle.";
-    }
-document.getElementById("thirdAngle").innerHTML = output;
+//Allows the user to enter a message and outputs an encrypted message
+function encryption(){
+    let plainText = prompt('Enter your message to encrypt');
+    let encryptedText = "";
+    plainText = plainText.split(" "); 
+    //Creates spaces around the list of words
+    for(let i = 0; i < plainText.length; i++){
+        if(plainText[i].length >= 2){
+            let firstLetter = plainText[i][0];
+             //Assign the variable  firstLetter' the value of the first letter of 'plainText'
+            let secondLetter = plainText[i][1];
+            //Assign the variable 'secondLetter' the second letter of 'plainText' 
+           encryptedText += 'ahFj' + (plainText[i]).slice(1) + 'Ahf' + secondLetter + firstLetter + "5" + ' '
+        }
+        else {
+            let firstLetter = plainText[i][0];
+            encryptedText += (plainText[i][0]) + 'hYu' + firstLetter + ' ';
+        }
+      }
+      output = "Your encrypted message is " + encryptedText;
+      document.getElementById("encryption").innerHTML = output;  
     }
 
-function project9 () {
-    alert("Project 9 coming soon!");
-}
+    //Allows the user to decrypt their encrypted message
+    function decryption(){
+        let cypherText = prompt("Enter your encrypted message")
+        let decryptedText = ''; 
+        //Decrypted text
+        let decryptOne = ''; 
+        //Moves the last letter to the front again 
+        let wholeDecrpyt = '';
+         //The rest of the text after the first letter
+      cypherText = cypherText.split(" "); 
+      //Creates spaces
+    for(let i = 0; i < ciphercypherTextext.length; i = i + 1){
+        cypherText[i] = cypherText[i].replace(/Ahf/, ""); 
+        cypherText[i] = cypherText[i].replace(/ahFj/g, ""); 
+        cypherText[i] = cypherText[i].replace(/5/g, ""); 
+        cypherText[i] = cypherText[i].replace(/hYu/g, ""); 
+        //Replaces the strings with an empty string 
+        if(cypherText[i].length > 2){
+            decryptOne = cypherText[i].slice(-1); 
+            // Fetches the last character of cypherText and stores it inside 'decryptOne'
+            wholeDecrpyt =  (cypherText[i]).slice(0, -2); 
+            //Removes the second letter from the end and includes the rest of cypherText 
+    
+    decryptedText += decryptOne + wholeDecrpyt + ' ';
+        }
+        else {
+            decryptedText += cypherText[i][0] + " "; 
+            //Takes cypherText and only includes the first letter. (used for 1 letter words)
+            }
+    }
+    output = "Your decrypted message is " + decryptedText
+    document.getElementById("decryption").innerHTML = output;
+    }
+    
